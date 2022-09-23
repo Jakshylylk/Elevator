@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: green;
+}
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+}
+.btns button {
+  width: 50px;
+  height: 50px;
+  margin: 30px;
+  border-radius: 30px;
+  border: 5px solid red;
+  background: black;
+  color: white;
+}
+.container {
+  width: 650px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  height: 840px;
+  width: 250px;
+  background-color: gray;
+}
+div.floor {
+  height: 115px;
+  width: 200px;
+  border: 2px solid white;
+  background: black;
+  margin: 20px;
+}
+
+.elevator {
+  height: 145px;
+  width: 150px;
+  border: 2px solid red;
+  margin-top: 695px;
+  display: flex;
+  background-color: rgb(197, 242, 243);
+}
+.door {
+  height: 141px;
+  width: 75px;
+  border: 1px solid darkgray;
+  background-color: grey;
+}
+.right {
+  height: 840px;
+  width: 250px;
+  background-color: gray;
+}
+#yellow {
+  background-color: yellow;
+}
